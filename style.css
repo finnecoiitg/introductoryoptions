@@ -63,13 +63,13 @@
     font-family: 'Saira';
     font-style: normal;
     font-weight: 200;
-    src: local('Saira ExtraLight'), local('Saira-ExtraLight'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNHobIYScr0.ttf) format('truetype');
+    src: local('Saira ExtraLight'), local('Saira-ExtraLight'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNHobIYSCr0.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Saira';
     font-style: normal;
     font-weight: 300;
-    src: local('Saira Light'), local('Saira-Light'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGMb4YScr0.ttf) format('truetype');
+    src: local('Saira Light'), local('Saira-Light'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGMb4YSCr0.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Saira';
@@ -81,25 +81,25 @@
     font-family: 'Saira';
     font-style: normal;
     font-weight: 500;
-    src: local('Saira Medium'), local('Saira-Medium'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNHUboYScr0.ttf) format('truetype');
+    src: local('Saira Medium'), local('Saira-Medium'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNHUboYSCr0.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Saira';
     font-style: normal;
     font-weight: 600;
-    src: local('Saira SemiBold'), local('Saira-SemiBold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNH4aYYScr0.ttf) format('truetype');
+    src: local('Saira SemiBold'), local('Saira-SemiBold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNH4aYYSCr0.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Saira';
     font-style: normal;
     font-weight: 700;
-    src: local('Saira Bold'), local('Saira-Bold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGcaIYScr0.ttf) format('truetype');
+    src: local('Saira Bold'), local('Saira-Bold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGcaIYSCr0.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Saira';
     font-style: normal;
     font-weight: 800;
-    src: local('Saira ExtraBold'), local('Saira-ExtraBold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGAa4YScr0.ttf) format('truetype');
+    src: local('Saira ExtraBold'), local('Saira-ExtraBold'), url(https://fonts.gstatic.com/s/saira/v4/mem9Ya2wxmKQyNGAa4YSCr0.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Saira Extra Condensed';
@@ -162,12 +162,12 @@
   #welcome {
     display: flex;
     flex-direction: column;
-    background-color: #004B80;
+    background-color: #8D4FDD;
     justify-content: space-around;
     align-items: center;
     height: 80vh;
     width: 100%;
-    background:  #004B80;
+    background:  #8D4FDD;
     clear: both;
   }
   .outfit{
@@ -223,7 +223,7 @@
     font-family: 'Raleway';
     text-align: center;
     font-weight: bold;
-    background: #004B80;
+    background: #8D4FDD;
     color: white;
   }
   .regbutton:hover {
@@ -526,7 +526,7 @@ table {
   }
   /* Timeline */
   .timeline {
-    border-left: 4px solid #46ceff;
+    border-left: 4px solid #5CB95F;
     border-bottom-right-radius: 4px;
     border-top-right-radius: 4px;
     background: rgba(37, 40, 39, 0.03);
@@ -543,7 +543,7 @@ table {
     list-style: none;
     text-align: left;
     font-weight: 100;
-    max-width: 70%;
+    max-width: 90%;
   }
   .timeline h1,
   .timeline h2,
@@ -585,9 +585,9 @@ table {
     min-width: 120px;
   }
   .timeline .event:after {
-    box-shadow: 0 0 0 4px #46fdff;
+    box-shadow: 0 0 0 6px #5CB95F;
     left: -37.85px;
-    background: #313534;
+    background: #ffffff;
     border-radius: 50%;
     height: 11px;
     width: 11px;
@@ -893,6 +893,18 @@ table {
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  /* Override: set page background to #88E68B */
+body {
+  background: #88E68B !important;
+  background-image: repeating-linear-gradient(
+        135deg,
+        rgba(255,255,255,0.12) 0px,
+        rgba(255,255,255,0.12) 8px,
+        transparent 8px,
+        transparent 16px
+      ) !important;
+}
+
   .buttons{
       display: flex;
       position: absolute;
@@ -1034,7 +1046,7 @@ table {
           height: 145vw ;
           width: 81.38vw;
           border-radius: 4.06vw 14.01vw;
-          background-color: #004B80;
+          background-color: #8D4FDD;
           padding: 8.2vw 3vw 11vw 6.41vw;
           
           display: flex !important; 
